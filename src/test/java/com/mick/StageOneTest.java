@@ -18,6 +18,7 @@ public class StageOneTest {
 			System.out.println("-->"+e.getMessage());
 		}
 		if(list != null && list.size()>0) {
+
 			for (String str : list) {
 				System.out.println("---->" + str);
 			}
