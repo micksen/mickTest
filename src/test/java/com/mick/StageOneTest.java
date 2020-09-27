@@ -17,9 +17,10 @@ public class StageOneTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 	}
 
@@ -34,9 +35,10 @@ public class StageOneTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 	}
 
@@ -51,9 +53,10 @@ public class StageOneTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 	}
 
@@ -61,16 +64,17 @@ public class StageOneTest {
 	public void test4() {
 
 		StageOne stageOne = new StageOne();
-		int[] number = { 0, 3 };
+		int[] number = { 0,2,3,8 };
 		List<String> list = null;
 		try {
 			list = stageOne.convertNumberToLetters(number);
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 	}
 

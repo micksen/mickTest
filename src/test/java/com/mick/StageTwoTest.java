@@ -18,8 +18,10 @@ public class StageTwoTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 
 	}
@@ -37,8 +39,10 @@ public class StageTwoTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0) {
+			for (String str : list) {
+				System.out.println("---->" + str);
+			}
 		}
 	}
 
@@ -54,9 +58,12 @@ public class StageTwoTest {
 		} catch (Exception e) {
 			System.out.println("-->"+e.getMessage());
 		}
-		for (String str : list) {
-			System.out.println("---->"+str);
+		if(list != null && list.size()>0){
+			for (String str : list) {
+				System.out.println("---->"+str);
+			}
 		}
+
 	}
 
 }
